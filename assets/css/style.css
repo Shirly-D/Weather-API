@@ -140,10 +140,12 @@ li {
 }
 
 .display { 
+  padding: 100px 0 250px;
   font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
   letter-spacing: 1px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .city-name,
