@@ -120,6 +120,30 @@ li {
   main styling starts here
 =================================*/
 
+.text-field {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#input {
+  width: 30%;
+  padding: 10px 10px;
+  background-color: #e7e7e7;
+}
+
+input[type="submit"] { padding: 10px 10px; }
+
+input[type="submit"]:hover {
+  color: black;
+  background-color: burlywood;
+  transition: 0.5s;
+}
+
+.display { 
+  font-size: 30px;
+  text-align: center;
+ }
+
 
 
 
