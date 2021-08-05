@@ -25,7 +25,7 @@ function weatherData(w) {
     var celcius = Math.round(parseFloat(w.main.temp)-273.15);
 	var fahrenheit = Math.round(((parseFloat(w.main.temp)-273.15)*1.8)+32);
     var description = w.weather[0].description;
-    document.querySelector('.description').innerHTML = "Description:  " + description;
+    document.querySelector('.description').innerHTML = "Weather:  " + description;
     document.querySelector('.temperature').innerHTML = " Temperature:  " + celcius + '&deg;';
     document.querySelector('.city-name').innerHTML = "City Name:  " + w.name;
 
